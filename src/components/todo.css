@@ -1,0 +1,74 @@
+.input{
+    background-color: transparent;
+    border-style: none;
+    height: 100%;
+    width: 70%;
+    resize: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.newtask{
+    background-color: transparent;
+    border-style: none;
+    height: 100%;
+    width: 70%;
+    resize: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.task_container{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    resize: none;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid rgb(54, 14, 147);
+    border-radius: 5px;
+    width: 10%;
+}
+.button:hover{
+    background-color: rgb(54, 14, 147);
+    color: white;
+}
+.taskbox{
+    border: 1px solid rgb(176, 176, 176);
+    padding: 10px;
+    font-size: 16px;
+    color: blueviolet;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+
+}
+.checked{
+    background-color: purple;
+
+}
+.unchecked{
+    background-color: transparent;
+    
+}
+.unchecked:hover{
+    background-color: purple;
+    
+}
+.checked:hover{
+    background-color: rgb(186, 101, 186);
+
+}
